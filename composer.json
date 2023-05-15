@@ -1,0 +1,21 @@
+{
+    "name": "bmt/isrc",
+    "description": "The ISRC class is a PHP class that represents an International Standard Recording Code (ISRC). It provides methods to manipulate ISRC codes by parsing, retrieving components, and generating new codes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bmt\\ISRC\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed Taha",
+            "email": "info@mohammedtaha.net"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2"
+    },
+    "minimum-stability": "dev"
+}
